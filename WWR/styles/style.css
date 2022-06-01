@@ -9,12 +9,14 @@ header{
     background-color:#396E94;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: .8;
 }
 nav {
     text-align: center;
     text-decoration: none;
     display: flex;
-    justify-content: space-around 
+    justify-content: space-around;
+    
 }
 
 nav a  { padding: 35px;
@@ -52,9 +54,9 @@ a {
 .logo { width: 80px;
 }
 
-#logo_link {  padding-top: 5px;
-              justify-self: center;
-              align-self: center;
+#logo_link {    padding-top: 5px;
+                justify-self: center;
+                align-self: center;
 }
 
 nav a:hover {
