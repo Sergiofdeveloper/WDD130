@@ -355,16 +355,17 @@ footer .social img  {
     grid-template-columns: 1fr 1fr;
 
 }
-
+#bottom h2{
+    color: #044d81;
+     text-align: justify;
+    padding-bottom: 10px;
+}
 #video {
     margin-left: 300px;
     margin-bottom: 30px;
 }
 
-#video h2{
-    color: #085b96;
-    text-align: center;
-}
 .map {
-    margin-left: 140px;
+    padding-left: 140px;
+    margin-bottom: 20px;
 }
