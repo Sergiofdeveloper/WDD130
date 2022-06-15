@@ -280,8 +280,6 @@ footer .social img  {
 
 /**  aqui empieza estilo rivers.html **/ 
 
-
-
 }
 .h2_rivers{
     color: #085b96;
@@ -295,7 +293,6 @@ footer .social img  {
 
 #banner {
     padding-top: 20px;
-    width: 100%;
     margin-left: auto;
     margin-right:auto;   
 }
@@ -318,7 +315,6 @@ footer .social img  {
     
     padding: 15px 15px 20px 20px;  
     margin-bottom: 30px;
-    width: 100%;
     border: 5px solid #01090f;
     border-radius: 30px;
     background-color: #74a0c0;
@@ -331,7 +327,6 @@ footer .social img  {
     
     padding: 15px 15px 20px 20px;
     margin-bottom: 30px;
-    width: 100%;
     border-radius: 30px;
     border: 5px solid #01090f;
     background-color: #74a0c0;
@@ -344,7 +339,6 @@ footer .social img  {
     border-radius: 30px;
     padding: 15px 15px 20px 20px;
     margin-bottom: 30px;
-    width: 100%;
     background-color: #74a0c0;
     color: black;
     box-shadow: 5px 5px 10px #6f7364;
