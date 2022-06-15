@@ -277,4 +277,100 @@ footer .social img  {
     footer {
         margin-top: 25px;
     }
+
+/**  aqui empieza estilo rivers.html **/ 
+
+
+
+}
+.h2_rivers{
+    color: #085b96;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #01090f;
+
+}
+
+#banner {
+    padding-top: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;   
+}
+
+.img_banner{
+    margin: auto;
+    display: block;
+    
+}
+
+#info_rivers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:inherit;
+    margin-left: 200px;
+     
+}
+
+.river1{
+    
+    padding: 15px 15px 20px 20px;  
+    margin-bottom: 30px;
+    width: 100%;
+    border: 5px solid #01090f;
+    border-radius: 30px;
+    background-color: #74a0c0;
+    color: black;
+    box-shadow: 5px 5px 10px #6f7364;
+     
+}
+
+.river2{
+    
+    padding: 15px 15px 20px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 30px;
+    border: 5px solid #01090f;
+    background-color: #74a0c0;
+    color: black;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river3{
+    border: 5px solid #01090f;
+    border-radius: 30px;
+    padding: 15px 15px 20px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #74a0c0;
+    color: black;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river_images {
+    margin-left: 100px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#video {
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+#video h2{
+    color: #085b96;
+    text-align: center;
+}
+.map {
+    margin-left: 140px;
 }
