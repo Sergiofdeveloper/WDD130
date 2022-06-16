@@ -287,34 +287,35 @@ footer .social img  {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    -webkit-text-stroke: 0.1px #01090f;
-
+    
 }
 
 #banner {
     padding-top: 20px;
-    margin-left: auto;
-    margin-right:auto;   
+    margin-top: -120px;
 }
 
 .img_banner{
-    margin: auto;
-    display: block;
     
+    display: block;
+    width: 100%;
 }
 
 #info_rivers {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items:inherit;
-    margin-left: 200px;
+    grid-column-gap: 40px;
+    margin-bottom: 30px;
+   
      
 }
 
 .river1{
     
-    padding: 15px 15px 20px 20px;  
-    margin-bottom: 30px;
+    grid-column: 1/4;
+    padding: 50px 15px 20px 20px;  
+    margin-bottom: 40px;
     border: 5px solid #01090f;
     border-radius: 30px;
     background-color: #74a0c0;
@@ -324,9 +325,9 @@ footer .social img  {
 }
 
 .river2{
-    
-    padding: 15px 15px 20px 20px;
-    margin-bottom: 30px;
+    grid-column: 1/4;
+    padding: 15px 15px 50px 20px;
+    margin-bottom: 40px;
     border-radius: 30px;
     border: 5px solid #01090f;
     background-color: #74a0c0;
@@ -335,38 +336,43 @@ footer .social img  {
 }
 
 .river3{
+    grid-column: 1/4;
     border: 5px solid #01090f;
-    border-radius: 30px;
-    padding: 15px 15px 20px 20px;
+    border-radius: 40px;
+    padding: 15px 15px 50px 20px;
     margin-bottom: 30px;
     background-color: #74a0c0;
     color: black;
     box-shadow: 5px 5px 10px #6f7364;
+    
 }
 
 .river_images {
-    margin-left: 100px;
-    margin-top: 20px;
+    
+    
     box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 4/6;
+    margin-bottom: 10px;
 }
 
 #bottom {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #bottom h2{
     color: #044d81;
-     text-align: justify;
+    text-align: center;
     padding-bottom: 10px;
     
 }
 #video {
-    margin-left: 300px;
     margin-bottom: 30px;
+    grid-column: 1/2;
+    margin-left: 300px;
 }
 
 .map {
     padding-left: 140px;
     margin-bottom: 20px;
+    grid-column: 3/4;
 }
