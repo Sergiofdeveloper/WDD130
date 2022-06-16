@@ -360,7 +360,7 @@ footer .social img  {
     grid-template-columns: 1fr 1fr 1fr;
 }
 #bottom h2{
-    color: #044d81;
+    color: #080808;
     text-align: center;
     padding-bottom: 10px;
     
@@ -368,11 +368,18 @@ footer .social img  {
 #video {
     margin-bottom: 30px;
     grid-column: 1/2;
-    margin-left: 300px;
+    border: 5px solid #01090f;
+    border-radius: 30px;
+    background-color: rgb(198, 207, 236);
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-top: 20px;
+    color: black;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .map {
-    padding-left: 140px;
-    margin-bottom: 20px;
+    
+    margin-bottom: 30px;
     grid-column: 3/4;
 }
