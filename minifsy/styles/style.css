@@ -110,10 +110,10 @@ nav a:hover {
     color:#070707;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left:150px;
-    padding-right:150px;
+    padding-left:100px;
+    padding-right:100px;
     background-color:#fba035;
-    border-radius: 30px;
+    border-radius: 15px;
     border-style:solid;
     box-shadow: 5px 5px 10px #6f7364;
     
@@ -123,7 +123,7 @@ nav a:hover {
     color: white; 
     background-color:#ffb923;
     border: #070707;
-    border-radius: 30px;
+    border-radius: 15px;
     border-style:solid; 
 }
 
