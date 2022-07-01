@@ -98,7 +98,8 @@ nav a:hover {
     text-align: center;
     font-size: 50px;
     margin-bottom: 70px;
-    margin-top: 200px;  
+    margin-top: 200px; 
+    max-width: 100%; 
     
 }
 
@@ -185,7 +186,7 @@ text-decoration: none;
 footer {
     background:url(../images/footer.jpg) center center no-repeat;
     background-size: cover;
-    max-width: 100%;
+    max-width: 1640px;
     padding: 25px 50px;
     display: flex;
     justify-content:space-between;
