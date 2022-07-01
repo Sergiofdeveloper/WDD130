@@ -4,12 +4,13 @@ body{
     background-color: rgb(229, 248, 211) ;
     font-family:'Lato', 'Roboto Slab' ;
     font-size: 22px;
-    max-width: 1630px;
+    max-width: 1640px;
     
 }
 header{
     background:url(../images/nav_menu.jpg) center center no-repeat;
     background-size: cover;
+    max-width: 100%;
     margin: 0 auto;
     
     
@@ -67,7 +68,11 @@ nav a:hover {
     margin-left: auto;      
     background-color: white;
     color: black;
+    font-weight: 900;
     box-shadow: 5px 5px 10px #6f7364;
+    border-left: 8px solid #f7a713;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 #participants {
@@ -77,7 +82,11 @@ nav a:hover {
     margin-bottom: 40px;
     background-color: white;
     color: black;
+    font-weight: 900;   
     box-shadow: 5px 5px 10px #6f7364;
+    border-left: 8px solid #f7a713;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .boxes {
@@ -88,11 +97,12 @@ nav a:hover {
     text-decoration: solid;
     text-align: center;
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-top: 200px;  
+    
 }
 
-.book {
+ .book {
     text-decoration:none;
     font-weight:600;
     font-size:40px;
@@ -101,16 +111,100 @@ nav a:hover {
     padding-bottom:15px;
     padding-left:150px;
     padding-right:150px;
-    background-color:#FFD27D;
+    background-color:#fba035;
     border-radius: 30px;
     border-style:solid;
     box-shadow: 5px 5px 10px #6f7364;
+    
     }
 
 .book:hover{
     color: white; 
-    background-color:#f7a713;
+    background-color:#ffb923;
     border: #070707;
     border-radius: 30px;
-    border-style:solid;
+    border-style:solid; 
+}
+
+
+/*  this is for a rotating effect
+.book
+
+
+background:#FFD27D;
+color:#070707;
+font-weight:600;
+font-size:40px;
+padding:10px 15px;
+border-radius: 30px;
+border-style:solid;
+box-shadow: 5px 5px 10px #6f7364;
+margin:50px;
+cursor:pointer;
+text-decoration: none;
+
+-webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+
+-o-transition-property:width,height,-o-transform,background,font-size,opacity,color;
+-o-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+-moz-transition-property:width, height, -moz-transform, background, font-size, opacity, color;
+-moz-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+transition-property:width,height,transform,background,font-size,opacity;
+transition-duration:1s,1s,1s,1s,1s,1s;
+
+-webkit-border-radius:5px;
+border-radius:5px;
+
+box-shadow:0 0 2px rgba(0,0,0,0.5);
+
+text-shadow:0 0 5px rgba(255,255,255,0.5);
+
+display:inline-block;    /* It is important for the button to rotate
+}
+
+.book:hover
+{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+
+background:#f7a713;
+font-size:40px;
+color:white;
+border: #070707;
+border-radius: 30px;
+border-style:solid; 
+text-decoration: none;
+}
+*/
+
+
+footer {
+    background:url(../images/footer.jpg) center center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+    font-size: 30px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:rgba(17, 0, 0, 0.897);
+}
+footer p{
+    color:black;
+    font-weight: 600;
 }
