@@ -73,6 +73,7 @@ nav a:hover {
     border-left: 8px solid #f7a713;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
+    
 }
 
 #participants {
@@ -103,85 +104,29 @@ nav a:hover {
     
 }
 
- .book {
-    text-decoration:none;
+.button {
+    padding: 15px 25px;
     font-weight:600;
-    font-size:40px;
-    color:#070707;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-left:100px;
-    padding-right:100px;
-    background-color:#fba035;
+    font-size:60px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #070707;
+    background-color: #fba035;
+    border: none;
     border-radius: 15px;
-    border-style:solid;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 0 9px #999;
+    text-decoration: none;
     
-    }
-
-.book:hover{
-    color: white; 
-    background-color:#ffb923;
-    border: #070707;
-    border-radius: 15px;
-    border-style:solid; 
-}
-
-
-/*  this is for a rotating effect
-.book
-
-
-background:#FFD27D;
-color:#070707;
-font-weight:600;
-font-size:40px;
-padding:10px 15px;
-border-radius: 30px;
-border-style:solid;
-box-shadow: 5px 5px 10px #6f7364;
-margin:50px;
-cursor:pointer;
-text-decoration: none;
-
--webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
-
--o-transition-property:width,height,-o-transform,background,font-size,opacity,color;
--o-transition-duration:1s,1s,1s,1s,1s,1s,1s;
-
--moz-transition-property:width, height, -moz-transform, background, font-size, opacity, color;
--moz-transition-duration:1s,1s,1s,1s,1s,1s,1s;
-
-transition-property:width,height,transform,background,font-size,opacity;
-transition-duration:1s,1s,1s,1s,1s,1s;
-
--webkit-border-radius:5px;
-border-radius:5px;
-
-box-shadow:0 0 2px rgba(0,0,0,0.5);
-
-text-shadow:0 0 5px rgba(255,255,255,0.5);
-
-display:inline-block;    /* It is important for the button to rotate
-}
-
-.book:hover
-{
--moz-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
--o-transform: rotate(360deg);
-transform: rotate(360deg);
-
-background:#f7a713;
-font-size:40px;
-color:white;
-border: #070707;
-border-radius: 30px;
-border-style:solid; 
-text-decoration: none;
-}
-*/
-
+  }
+  
+  .button:hover {background-color: #ffb923}
+  
+  .button:active {
+    background-color: #f3aa0c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 footer {
     background:url(../images/footer.jpg) center center no-repeat;
