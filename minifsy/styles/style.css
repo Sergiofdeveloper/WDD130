@@ -13,7 +13,6 @@ header{
     max-width: 100%;
     margin: 0 auto;
     
-    
         
 }
 nav {
@@ -46,11 +45,10 @@ nav a:hover {
 }
 #box {
     display: grid;
-    height: 800px;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 100px;
+    grid-column-gap: 50px;
     padding-top: 30px;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
     
 }
 
@@ -60,11 +58,14 @@ nav a:hover {
     font-size: 50px;
 }
 
+#box p{
+     font-size: 25px;
+}
+
+
 #welcome {
     
-    max-width: 715px;
     padding: 20px;
-    margin-bottom: 40px;
     margin-left: auto;      
     background-color: white;
     color: black;
@@ -78,9 +79,7 @@ nav a:hover {
 
 #participants {
     
-    max-width: 715px;
     padding: 20px;
-    margin-bottom: 40px;
     background-color: white;
     color: black;
     font-weight: 900;   
@@ -94,12 +93,66 @@ nav a:hover {
     padding: 0px 20px 30px 30px;
 }
 
+#box-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+#box-information h2{
+    text-decoration: solid;
+    text-align: center;
+    font-size: 50px;
+}
+
+#box-information p{
+        font-size: 25px;
+}
+
+.payment {
+    
+    max-width: 715px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;      
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-left: 8px solid #f7a713;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    
+}
+
+/* Style buttons */
+
+.btn {
+    margin-top: 50px;
+    background-color: rgb(47, 104, 33);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 60px;
+    text-decoration: none;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(41, 163, 10);
+  }
+
 #registration {
     text-decoration: solid;
     text-align: center;
     font-size: 50px;
     margin-bottom: 70px;
-    margin-top: 200px; 
+    margin-top: 20px; 
     max-width: 100%; 
     
 }
