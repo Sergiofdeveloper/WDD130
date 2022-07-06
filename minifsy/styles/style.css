@@ -135,9 +135,10 @@ nav a:hover {
     margin-top: 50px;
     background-color: rgb(47, 104, 33);
     border: none;
-        padding: 12px 30px;
+    padding: 12px 30px;
     cursor: pointer;
     font-size: 60px;
+    
     
   }
 
