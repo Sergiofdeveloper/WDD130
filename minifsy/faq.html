@@ -23,8 +23,44 @@
         </a> 
     </div>
     <main>
-        <div>
-            
+        
+        <div class="faq">
+        <img class=faq_banner src="images/faq.jpg" alt="frequently asked questions">
+            <h2>All the answers you are looking for in one place</h2>
+                <button type="button" class="collapsible">When do the registration period end?</button>
+                <div class="content">
+                <p>on july 17th</p>
+                </div>
+            <button type="button" class="collapsible">Can I participate with 11 or 14 years?</button>
+                <div class="content">
+                <p>only borns on 2009 and 2010</p>
+                </div> 
+            <button type="button" class="collapsible">Can I show up at Mini FSY and register the same day?</button>
+                <div class="content">
+                <p>nop</p>
+                </div> 
+            <button type="button" class="collapsible">Can I wear this?</button>
+                <div class="content">
+                <p>from youth</p>
+                </div>     
+              
+                
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+                
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }    
+            </script>   
         </div>
     </main> 
 
