@@ -222,7 +222,10 @@ margin-bottom: 20px;
 
 .activities {
   width: 100%;
-  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;      
