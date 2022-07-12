@@ -100,7 +100,7 @@ nav a:hover {
 }
 
 #box-information {
-    max-width: 100%;
+    max-width: 1640px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
@@ -201,7 +201,7 @@ footer {
     background:url(../images/footer.jpg) center center no-repeat;
     background-size: cover;
     max-width: 100%;
-    padding: 25px 50px;
+    padding: 20px 50px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -209,7 +209,7 @@ footer {
 
 footer h3 {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 footer a {
     color: white;
@@ -224,19 +224,16 @@ footer p{
     font-weight: 600;
 }
 
-#banner_activities{
+#banner_act{
 
-width: 100%;
-margin-top: 20px;
-margin-bottom: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.activities {
+.highlights {
   max-width: 100%;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 50px;
+  padding: 10px 30px 50px 30px;
   margin-top: 60px;
   margin-bottom: 20px;
   margin-left: auto;      
@@ -249,7 +246,7 @@ margin-bottom: 20px;
   border-top-left-radius: 8px;
 }
 
-.activities h2 {
+.highlights h2 {
     color:black;
     font-weight: 600;
     font-size: 50px;
