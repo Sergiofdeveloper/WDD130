@@ -39,11 +39,8 @@ nav a:hover {
     color: black;
 }
 
-
-#logo_link {  
-  
+.logo{
   width: 100%;
-    
 }
 #box {
     display: grid;
@@ -118,7 +115,7 @@ nav a:hover {
 
 .payment {
     
-    max-width: 790px;
+    max-width: 100%;
     padding: 20px;
     padding-top: 30px;
     margin-bottom: 40px;
@@ -130,6 +127,10 @@ nav a:hover {
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
     
+}
+
+.material {
+  text-align: center;
 }
 
 /* Style buttons */
