@@ -347,7 +347,7 @@ footer p{
   text-align: left;
   outline: none;
   font-size: 25px;
-  font-weight: 800px;
+  
 }
 
 .collapsible:after {
@@ -377,7 +377,7 @@ footer p{
   overflow: hidden;
   background-color: white;
   font-size: 25px;
-  font-weight: 800px;
+  
 }
 
 
