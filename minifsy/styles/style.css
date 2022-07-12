@@ -221,13 +221,13 @@ footer p{
 
 .banner_activities{
 
-width: 100%;
+max-width: 100%;
 margin-top: 20px;
 margin-bottom: 20px;
 }
 
 .activities {
-  width: 100%;
+  max-width: 100%;
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 10px;
@@ -384,7 +384,7 @@ margin-bottom: 20px;
 
 .faq_banner{
   margin-bottom: 10px;
-  width: 100%;
+  max-width: 100%;
 }
 .faq h2{
   text-align: center;
