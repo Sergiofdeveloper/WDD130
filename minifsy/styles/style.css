@@ -39,8 +39,8 @@ nav a:hover {
     color: black;
 }
 
-.logo{
-  max-width: 100%;
+#logo{
+  width:100%;
 
 }
 
@@ -219,9 +219,9 @@ footer p{
     font-weight: 600;
 }
 
-.banner_activities{
+#banner_activities{
 
-max-width: 100%;
+width: 100%;
 margin-top: 20px;
 margin-bottom: 20px;
 }
@@ -366,7 +366,7 @@ margin-bottom: 20px;
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  margin-left: 180px;
+  text-align: center;
   padding: 0 18px;
   width: 80%;
   color:black;
