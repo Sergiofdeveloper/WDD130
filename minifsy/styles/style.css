@@ -91,11 +91,16 @@ nav a:hover {
     border-top-left-radius: 8px;
 }
 
+#box{
+  max-width: 100%;
+}
+
 .boxes {
     padding: 0px 20px 30px 30px;
 }
 
 #box-information {
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
@@ -377,15 +382,17 @@ margin-bottom: 20px;
   font-weight: 800px;
 }
 
-.faq {
+
+#faq {
   margin-top: 30px;
   margin-bottom:30px;
 }
 
 .faq_banner{
   margin-bottom: 10px;
-  max-width: 100%;
+  width: 100%;
 }
+
 .faq h2{
   text-align: center;
   font-size: 50px;
