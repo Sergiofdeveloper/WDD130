@@ -201,7 +201,7 @@ footer {
     background:url(../images/footer.jpg) center center no-repeat;
     background-size: cover;
     max-width: 100%;
-    padding: 20px 50px;
+    padding: 10px 50px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -336,7 +336,7 @@ footer p{
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  margin-left: 180px;
+  margin-left: 130px;
   margin-bottom: 8px;
   background-color: #ffc70e;
   color: #444;
@@ -369,7 +369,7 @@ footer p{
 /* Style the collapsible content. Note: hidden by default */
 .content {
   
-  margin-left: 180px;
+  margin-left: 130px;
   padding: 0 18px;
   width: 80%;
   color:black;
