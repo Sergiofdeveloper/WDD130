@@ -4,7 +4,7 @@ body{
     background-color: rgb(229, 248, 211) ;
     font-family:'Lato', 'Roboto Slab' ;
     font-size: 22px;
-    max-width: 1640px;
+    max-width: 100%;
     
 }
 header{
@@ -16,6 +16,7 @@ header{
         
 }
 nav {
+    width: 100%;
     text-align:center; 
     display: flex;
     justify-content: space-around;
@@ -40,7 +41,8 @@ nav a:hover {
 
 
 #logo_link {  
-    text-align: center;
+  
+  width: 100%;
     
 }
 #box {
@@ -190,7 +192,7 @@ nav a:hover {
 footer {
     background:url(../images/footer.jpg) center center no-repeat;
     background-size: cover;
-    max-width: 1640px;
+    max-width: 100%;
     padding: 25px 50px;
     display: flex;
     justify-content:space-between;
